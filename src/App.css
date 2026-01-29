@@ -419,13 +419,6 @@
   font-weight: bold;
 }
 
-@media (max-width: 968px) {
-  .hero-visual {
-    width: 100%;
-    margin-top: 3rem;
-  }
-}
-
 @media (max-width: 480px) {
   .code-editor {
     padding: 15px;
@@ -483,7 +476,10 @@
   .hero {
     flex-direction: column-reverse;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 90px;
+    padding-bottom: 40px;
+    min-height: auto;
+    gap: 2rem;
   }
 
   .hero-content {
@@ -502,6 +498,15 @@
 
   .avatar-inner {
     font-size: 3rem;
+  }
+
+  .hero-visual {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .compiler-ui {
+    max-width: 100%;
   }
 }
 
